@@ -1,0 +1,329 @@
+body, html {
+  height: 100%;}
+
+* {
+  box-sizing: border-box;}
+
+.fond-accueil {
+	background-image: url("fond.jpg");
+  	filter: blur(8px) brightness(0.95) ;
+  	-webkit-filter: blur(5px) brightness(0.95);
+  	height: 101%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;}
+
+.milieu {
+	color: white;
+	font-weight: bolder;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: 2;
+  	width: 80%;
+  	padding: 20px;
+  	text-align: center;}
+
+.titre-accueil {
+	font-family: Roboto;
+	font-size: 100px;
+	font-weight: bolder;
+	text-shadow: 3px 2px 3px black;}
+
+.texte-accueil {
+	font-family: Comfortaa;
+	font-size: 50px;
+	font-weight: bolder;
+	text-shadow: 3px 2px 3px black;
+	padding-bottom: 25px}
+
+.bouton-accueil {
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0, 0.3);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-size: 30px;
+	font-weight: bolder;
+animation-delay: 3.5s}
+
+.bouton-formule{
+	background-color: rgb(240,80,0); /* Fallback color */
+  	background-color: rgba(240,80,0, 0.9);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-weight: bolder;
+	font-size: x-large;
+	text-align: center;
+	border-radius: 12px ;
+}
+
+.bouton-catalogue{
+	background-color: rgb(240,80,0); /* Fallback color */
+  	background-color: rgba(240,80,0, 0.9);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-weight: bolder;
+	font-size: medium;
+	text-align: center;
+	border-radius: 12px ;
+}
+
+.animate__animated.animate__zoomIn {
+	--animate-duration: 3.5s;}
+
+.logo{
+	position: absolute;
+	top: 10px;
+	left: 10px;}
+
+.compte{
+	position: absolute;
+	top: 10px;
+	right: 10px;}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 0;}
+
+.dropdown:hover {
+  -webkit-transition-delay: 3s;}
+
+.dropdown-toggle::after {
+  display: none;}
+
+.test {
+	font-size: 35px;
+	color: black;}
+
+.logo-barre {
+	width: 60%;}
+
+.roboto {
+	font-family: Roboto;
+	font-weight: bolder;
+text-align: center;}
+
+.comfortaa{
+	font-family: Comfortaa;
+text-align: center;
+color: black;
+text-decoration: none;}
+
+.espace {
+	padding-top: 5%;}
+
+.espace-carte {
+	padding-top: 3%;}
+
+.cartes{
+	width: 75%;}
+
+.img-carte {
+	margin-left: -12px;
+	margin-right: -12px;
+	border-radius: 1%;}
+	
+.bordure{
+	padding-left: 1%;
+	padding-right: 1%;}
+
+.coordonnees {
+	font-family: Comfortaa;
+color: black;
+text-decoration: none;
+padding-left: 28%;}
+
+.ref-photos{
+  text-decoration: none;
+  color: black;
+}
+
+.orange{
+	color: rgb(240,80,0);
+	color: rgba(240,80,0, 0.9);}
+
+
+
+.gallerie-body{
+  font-family: 'Homemade Apple', cursive;
+  font-size:20px;
+  background:url('https://images.pexels.com/photos/172277/pexels-photo-172277.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  background-size:cover;
+  height: auto;
+  background-position: center;
+  background-repeat:repeat;
+  
+  color:#000;}
+
+.gallerie-position{
+  position: relative;
+  text-align: center;
+  margin-bottom:0%;
+  padding:5%;}
+
+.gallerie{
+  text-align:center;
+  display:inline-block;
+  list-style:none;
+  position:relative;
+  border:solid 12px #fff;
+  background:#fff;
+  box-shadow:0 0 15px 0px #555;
+  transition:all 1s ease;
+  -o-transition:all 1s ease;
+  -moz-transition:all 1s ease;
+  -webkit-transition:all 1s ease;
+  top:50px;}
+
+.gallerie:hover{
+  top:0px;
+  opacity:0.9;}
+
+.gallerie:nth-child(1), .gallerie:nth-child(5), .gallerie:nth-child(9), .gallerie:nth-child(14), .gallerie:nth-child(18), 
+.gallerie:nth-child(21), .gallerie:nth-child(31), .gallerie:nth-child(33){
+    transform:rotate(10deg);}
+
+.gallerie:nth-child(2), .gallerie:nth-child(8), .gallerie:nth-child(12), .gallerie:nth-child(16), .gallerie:nth-child(20), 
+.gallerie:nth-child(23), .gallerie:nth-child(26), .gallerie:nth-child(32), .gallerie:nth-child(34){
+    transform:rotate(-5deg);}
+
+.gallerie:nth-child(3), .gallerie:nth-child(6), .gallerie:nth-child(10), .gallerie:nth-child(13), .gallerie:nth-child(17), 
+.gallerie:nth-child(24), .gallerie:nth-child(25), .gallerie:nth-child(27), .gallerie:nth-child(29), .gallerie:nth-child(36){
+    transform:rotate(-10deg);}
+
+.gallerie:nth-child(4), .gallerie:nth-child(7), .gallerie:nth-child(11), .gallerie:nth-child(15), .gallerie:nth-child(19), 
+.gallerie:nth-child(22), .gallerie:nth-child(28), .gallerie:nth-child(30), .gallerie:nth-child(35){
+    transform:rotate(20deg);}
+
+.gallerie:nth-child(36){margin-bottom: 10%}
+
+.gallerie-txt{
+  margin:-8px 0 0 0;}
+
+.gallerie-light{
+  border-radius:50%;
+  position:absolute;
+  left:0;
+  right:0;
+  width:700px;
+  height:700px;
+  background:#fff;
+  filter:blur(100px);
+  opacity:0.3;
+  pointer-events:none;}
+
+ .gallerie-titre {
+ 	font-family: Comfortaa;
+ 	font-size: 80px;
+ 	font-weight: bolder;
+ 	font-style: italic;
+ 	color: white;
+ 	text-align: center;}
+
+
+
+
+figure.snip1157 {
+  font-family: Comfortaa;
+  font-size: larger;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+  min-width: 220px;
+  max-width: 310px;
+  width: 100%;
+  color: #333;
+  text-align: left;
+  box-shadow: none !important;
+}
+figure.snip1157 * {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+  transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+figure.snip1157 img {
+  max-width: 100%;
+  vertical-align: middle;
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin: 40px 0 0 10px;
+}
+figure.snip1157 blockquote {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  min-height: 420px !important;
+  height: auto !important;
+  border-radius: 8px;
+  position: relative;
+  background-color: #dedede;
+  padding: 25px 50px 30px 50px;
+  font-size: 0.8em;
+  font-weight: 500;
+  margin: 0;
+  line-height: 1.6em;
+  font-style: italic;
+
+  }
+figure.snip1157 blockquote:before,
+figure.snip1157 blockquote:after {
+  font-family: 'FontAwesome';
+  content: "\201C";
+  position: absolute;
+  font-size: 50px;
+  opacity: 0.3;
+  font-style: normal;
+}
+figure.snip1157 blockquote:before {
+  top: 25px;
+  left: 20px;
+}
+figure.snip1157 blockquote:after {
+  content: "\201D";
+  right: 20px;
+  bottom: 0;
+}
+figure.snip1157 .arrow {
+  top: 100%;
+  width: 0;
+  height: 0;
+  border-left: 0 solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 25px solid #dedede;
+  margin: 0;
+  position: absolute;
+}
+figure.snip1157 .author {
+  position: absolute;
+  bottom: 45px;
+  padding: 0 10px 0 120px;
+  margin: 0;
+  text-transform: uppercase;
+
+  
+  -webkit-transform: translateY(50%);
+  transform: translateY(50%);
+}
+figure.snip1157 .author h5 {
+  opacity: 0.9;
+  margin: 0;
+  font-weight: 800;
+}
+figure.snip1157 .author h5 span {
+  font-weight: 400;
+  text-transform: none;
+
+}

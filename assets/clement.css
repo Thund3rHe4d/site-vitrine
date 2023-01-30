@@ -1,0 +1,154 @@
+body, html {
+  height: 100%;}
+
+* {
+  box-sizing: border-box;}
+
+.fond-accueil {
+	background-image: url("fond.jpg");
+  	filter: blur(8px) brightness(0.95) ;
+  	-webkit-filter: blur(5px) brightness(0.95);
+  	height: 101%;
+  	background-position: center;
+  	background-repeat: no-repeat;
+  	background-size: cover;}
+
+.milieu {
+	color: white;
+	font-weight: bolder;
+  	position: absolute;
+  	top: 50%;
+  	left: 50%;
+  	transform: translate(-50%, -50%);
+  	z-index: 2;
+  	width: 80%;
+  	padding: 20px;
+  	text-align: center;}
+
+.titre-accueil {
+	font-family: Roboto;
+	font-size: 100px;
+	font-weight: bolder;
+	text-shadow: 3px 2px 3px black;}
+
+.texte-accueil {
+	font-family: Comfortaa;
+	font-size: 50px;
+	font-weight: bolder;
+	text-shadow: 3px 2px 3px black;
+	padding-bottom: 25px}
+
+.bouton-accueil {
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0, 0.3);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-size: 30px;
+	font-weight: bolder;
+animation-delay: 3.5s}
+
+.bouton-formule{
+	background-color: rgb(240,80,0); /* Fallback color */
+  	background-color: rgba(240,80,0, 0.9);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-weight: bolder;
+	font-size: x-large;
+	text-align: center;
+	border-radius: 12px ;
+}
+
+.bouton-catalogue{
+	background-color: rgb(240,80,0); /* Fallback color */
+  	background-color: rgba(240,80,0, 0.9);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-weight: bolder;
+	font-size: medium;
+	text-align: center;
+	border-radius: 12px ;
+}
+
+.animate__animated.animate__zoomIn {
+	--animate-duration: 3.5s;}
+
+.logo{
+	position: absolute;
+	top: 10px;
+	left: 10px;}
+
+.compte{
+	position: absolute;
+	top: 10px;
+	right: 10px;}
+
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 0;}
+
+.dropdown:hover {
+  -webkit-transition-delay: 3s;}
+
+.dropdown-toggle::after {
+  display: none;}
+
+.test {
+	font-size: 35px;
+	color: black;}
+
+.logo-barre {
+	width: 60%;}
+
+.roboto {
+	font-family: Roboto;
+	font-weight: bolder;
+text-align: center;}
+
+.comfortaa{
+	font-family: Comfortaa;
+text-align: center;
+color: black;
+text-decoration: none;}
+
+.espace {
+	padding-top: 5%;}
+
+.espace-carte {
+	padding-top: 3%;
+}
+
+.cartes{
+	width: 75%;}
+
+.img-carte {
+	margin-left: -12px;
+	margin-right: -12px;
+	border-radius: 1%;
+}
+	
+.bordure{
+	padding-left: 1%;
+	padding-right: 1%;
+}
+
+.coordonnees {
+	font-family: Comfortaa;
+color: black;
+text-decoration: none;
+padding-left: 28%;
+}
+
+.orange{
+	color: rgb(240,80,0);
+	color: rgba(240,80,0, 0.9);
+}

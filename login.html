@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>S'enregistrer</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+ 
+<body>
+
+<div id="bloc_page">
+	<header>
+	</header>
+<nav class="main-nav">
+
+	<ul>
+		<li><a class="signin" href="#0">Connexion</a></li>
+		<li><a class="signup" href="#0">Créer un compte</a></li>
+	</ul>
+</nav>
+		<div class="fond-accueil">
+<div class="user-modal">
+		<div class="user-modal-container">
+			<ul class="switcher">
+				<li><a href="#0">Connectez-vous</a></li>
+				<li><a href="#0">Pas encore de compte ? Créer en un !</a></li>
+			</ul>
+
+			<div id="login">
+				<form class="form">
+					<p class="fieldset">
+						<label class="image-replace email" for="signin-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signin-email" type="email" placeholder="E-mail">
+						<span class="error-message">Aucun compte n'existe avec cette adresse email !</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace password" for="signin-password">Mot de passe</label>
+						<input class="full-width has-padding has-border" id="signin-password" type="password"  placeholder="Password">
+						<a href="#0" class="hide-password">Montrer</a>
+						<span class="error-message">Mot de passe incorrect ! Veuillez recommencer.</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="remember-me" checked>
+						<label for="remember-me">Se souvenir de moi</label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width" type="submit" value="Login">
+					</p>
+				</form>
+				
+				<p class="form-bottom-message"><a href="#0">Mot de passe oublié ?</a></p>
+
+			</div>
+
+			<div id="signup">
+				<form class="form">
+					<p class="fieldset">
+						<label class="image-replace username" for="signup-username">Nom d'utilisateur</label>
+						<input class="full-width has-padding has-border" id="signup-username" type="text" placeholder="Username">
+						<span class="error-message">Votre nom d'utilisateur ne peut contenir de caractères spéciaux (. , ; ?...)</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace email" for="signup-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="signup-email" type="email" placeholder="E-mail">
+						<span class="error-message">Entrez une adresse email valide !</span>
+					</p>
+
+					<p class="fieldset">
+						<label class="image-replace password" for="signup-password">Mot de passe</label>
+						<input class="full-width has-padding has-border" id="signup-password" type="password"  placeholder="Password">
+						<a href="#0" class="hide-password">Montrer</a>
+						<span class="error-message">Votre mot de passe doit contenir au moins 6 caractères !</span>
+					</p>
+
+					<p class="fieldset">
+						<input type="checkbox" id="accept-terms">
+						<label for="accept-terms">J'accepte les  <a class="accept-terms" href="#0">Conditions</a></label>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Create account">
+					</p>
+				</form>
+
+						</div>
+			</div>
+
+			<div id="reset-password">
+				<p class="form-message">Vous avez perdu votre mot de passe ? Veuillez rentrer votre adresse email.</br> Vous recevrez un mail afin de changer votre mot de passe.</p>
+
+				<form class="form">
+					<p class="fieldset">
+						<label class="image-replace email" for="reset-email">E-mail</label>
+						<input class="full-width has-padding has-border" id="reset-email" type="email" placeholder="E-mail">
+						<span class="error-message">aucun compte n'existe avec cette adresse email.</span>
+					</p>
+
+					<p class="fieldset">
+						<input class="full-width has-padding" type="submit" value="Reset password">
+					</p>
+				</form>
+
+				<p class="form-bottom-message"><a href="#0">Retourner a la connexion</a></p>
+			</div>
+			<a href="#0" class="close-form">Fermer</a>
+		</div>
+	</div>
+
+
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>

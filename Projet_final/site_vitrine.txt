@@ -1,0 +1,15 @@
+Projet SITE VITRINE
+
+	Espace client
+	Catalogue 
+	Formulaire (pas de panier)
+	
+
+	Maquettage: marvelapp
+
+Agence de voyage: 
+
+	destinations plusieurs gammes 
+	
+	page explicative gamme (aventure, chill relax, farniente, detox.../.
+	

@@ -1,0 +1,124 @@
+p, ul {
+  font-family: comfortaa;
+}
+
+h1, h2, h3, h4, h5
+{
+	font-family: roboto;
+}
+
+.etoile {
+  color: #3B6D79;
+}
+
+.aventure {
+	color: brown;
+}
+
+.fond {
+  background-color: #CCD9DC;
+}
+
+.espace {
+  padding-top: 5%;
+}
+
+.minispace {
+	padding-top: 1%;
+}
+
+.bordure {
+	padding-left: 5%;
+	padding-right: 5%;
+}
+
+.top {
+	padding-top: 10%;
+}
+
+
+
+
+.bouton-accueil {
+	background-color: rgb(0,0,0); /* Fallback color */
+  	background-color: rgba(0,0,0, 0.3);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-size: 30px;
+	font-weight: bolder;
+animation-delay: 3.5s}
+.bouton-formule{
+	background-color: rgb(240,80,0); /* Fallback color */
+  	background-color: rgba(240,80,0, 0.9);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-weight: bolder;
+	font-size: x-large;
+	text-align: center;
+	border-radius: 12px ;
+}
+.bouton-catalogue{
+	background-color: rgb(240,80,0); /* Fallback color */
+  	background-color: rgba(240,80,0, 0.9);
+	border: 0px;
+	color: white;
+	font-family: Comfortaa;
+	font-weight: bolder;
+	font-size: medium;
+	text-align: center;
+	border-radius: 12px ;
+}
+.logo{
+	position: absolute;
+	top: 10px;
+	left: 10px;}
+.compte{
+	position: absolute;
+	top: 10px;
+	right: 10px;}
+.navbar-nav,
+.mr-auto {
+flex: 1;
+margin: auto !important;
+display: flex;
+justify-content: space-between;}
+.dropdown:hover .dropdown-menu {
+  display: block;
+  margin: 0;}
+
+.dropdown:hover {
+  -webkit-transition-delay: 3s;}
+
+.dropdown-toggle::after {
+  display: none;}
+
+.test {
+	font-size: 35px;
+	color: black;}
+
+.logo-barre {
+	width: 60%;}
+.roboto {
+	font-family: Roboto;
+	font-weight: bolder;
+text-align: center;}
+
+.comfortaa{
+	font-family: Comfortaa;
+text-align: center;
+color: black;
+text-decoration: none;}
+.orange{
+	color: rgb(240,80,0);
+	color: rgba(240,80,0, 0.9);
+}
+
+.gauche {
+	padding-left: 5%;
+}
+
+.space {
+	margin-top: 5%;
+}
